@@ -23,6 +23,7 @@ the script will create 4 files:
 * /lib/systemd/system/switchIP.service
 
 update **ip.txt** with IPs you need to ping:
+
 ![2](images/2.png)
 
 update **netplan.txt** with netplan configuration files path (remember using full path):
@@ -50,4 +51,5 @@ the target is unreachable from server:
 ![7](images/7.png)
 
 service switch other netplan configuration and apply:
+
 ![8](images/8.png)
