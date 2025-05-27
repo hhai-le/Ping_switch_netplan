@@ -1,4 +1,4 @@
-# If unreachable then apply other netplan
+# If unreachable then apply other netplan config
 
 
 Clone to local:
