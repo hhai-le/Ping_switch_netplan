@@ -52,7 +52,7 @@ Example, I drop any traffic from the server:
 
 ![6](images/6.png)
 
-the target is unreachable from server:
+the target is unreachable from server (for 5 seconds):
 
 ![7](images/7.png)
 
