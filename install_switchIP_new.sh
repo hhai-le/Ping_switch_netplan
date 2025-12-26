@@ -65,7 +65,7 @@ check() {
     fi
     while IFS= read -r line
     do
-        ping -c5 $line > /dev/null
+        ping -c 10 -w 5 $line > /dev/null
         if [ $? -eq 0 ]; then
             echo "$line up"
             down=0
